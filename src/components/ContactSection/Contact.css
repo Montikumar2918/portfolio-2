@@ -1,0 +1,69 @@
+#contact{
+    background-color:#3a1f1f;
+    width: 100%;
+    height:calc(100vh - 48px);
+    box-sizing: border-box;
+    padding : 20px 8rem;
+    padding-top: 3.5rem;
+    color: rgb(54, 34, 34);
+    position: relative;
+}
+
+#contact h1{
+    font-size: 40px;
+    text-align:center; 
+    padding:24px 0px;
+    
+}
+.mail-contact{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contacts:hover{
+    background-color: honeydew;
+    color: rgb(75, 24, 216);
+}
+.contacts{
+    width: 18rem;
+    border-radius: 10px;
+    background-color: honeydew;
+    color: rgb(33, 54, 33);
+    margin-bottom: 20px;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.footer{
+    color: #3a1f1f;
+    background-color: honeydew;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height : 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* @media screen and (width:320px) and (height:568) {
+    #contact{
+        height: calc(150vh - 48px);
+        padding: 20px 10px;
+    }
+} */
+@media screen and (max-width:715px) {
+    #contact{
+        height: calc(105vh - 48px);
+        padding: 25px 10px;
+    }
+}
+
