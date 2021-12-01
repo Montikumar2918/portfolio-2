@@ -8,7 +8,6 @@ import f4 from "../../Images/f4.png";
 import f5 from "../../Images/f5.png";
 import f6 from "../../Images/f6.png";
 import f7 from "../../Images/f7.png";
-import b1 from "../../Images/b1.png";
 import b2 from "../../Images/b2.png";
 
 
